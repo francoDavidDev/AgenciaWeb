@@ -13,15 +13,15 @@ const Cards = () => {
             src={Single}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8 ">Single User</h2>
-          <p className="text-center text-4xl font-bold ">$149</p>
+          <h2 className="text-2xl font-bold text-center py-8 ">Single Page</h2>
+          <p className="text-center text-4xl font-bold ">$50.000</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
-            <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8"> Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8">5 secciones</p>
+            <p className="py-2 border-b mx-8">Sin mantenimiento</p>
+            <p className="py-2 border-b mx-8"> Formulario y link de rede</p>
           </div>
           <button className="bg-[#00DF9A] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-black">
-            Start Trial
+          Consultar
           </button>
         </div>
 
@@ -31,15 +31,15 @@ const Cards = () => {
             src={Double}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8 ">Single User</h2>
-          <p className="text-center text-4xl font-bold ">$149</p>
+          <h2 className="text-2xl font-bold text-center py-8 ">Web Corpotativa</h2>
+          <p className="text-center text-4xl font-bold ">$90.000</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
-            <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8"> Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8">+5 secciones</p>
+            <p className="py-2 border-b mx-8">Mantenimiento</p>
+            <p className="py-2 border-b mx-8"> Fomulario + link de redes + funcionalidades</p>
           </div>
           <button className="bg-[#000000] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-[#00DF9A]">
-            Start Trial
+          Consultar
           </button>
         </div>
 
@@ -50,15 +50,15 @@ const Cards = () => {
             src={Triple}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8 ">Single User</h2>
-          <p className="text-center text-4xl font-bold ">$149</p>
+          <h2 className="text-2xl font-bold text-center py-8 ">E-Commerce</h2>
+          <p className="text-center text-4xl font-bold ">$150.000</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
-            <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8"> Send up to 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8">+5 secciones</p>
+            <p className="py-2 border-b mx-8">Pasarela de compra</p>
+            <p className="py-2 border-b mx-8"> Seguridad y host</p>
           </div>
           <button className="bg-[#00DF9A] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-black">
-            Start Trial
+            Consultar
           </button>
         </div>
       </div>
