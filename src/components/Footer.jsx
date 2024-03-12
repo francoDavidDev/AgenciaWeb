@@ -7,55 +7,84 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa";
 
+import { Link } from "react-scroll";
+
 const Footer = () => {
   return (
-    <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
+    <div
+      id="contacto"
+      className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300"
+    >
       <div>
         <h1 className="w-full text-3xl font-bold text-white">
           VISIBILIDAD <span className="text-[#00df9a]">WEB</span>
         </h1>
         <p className="py-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
-          ullam iste repellat consequatur libero reiciendis, blanditiis
-          accusantium.
+         Contactenos para poder trabajar juntos, 
+         estamos a su disposicion.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+          <a href=" https://www.facebook.com/profile.php?id=100075172364405" target="_blank">
+          <FaFacebookSquare size={30} className="cursor-pointer hover:text-[#00df9a]" />
+          </a>
+          <a href=" https://www.instagram.com" target="_blank">
+          <FaInstagram size={30}   className="cursor-pointer hover:text-[#00df9a]" />
+          </a>
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
         <div>
           <h6 className="font-medium text-gray-400">Soluciones</h6>
           <ul>
-            <li className="py-2 text-sm">Analítica</li>
-            <li className="py-2 text-sm">Marketing</li>
-            <li className="py-2 text-sm">Comercio</li>
-            <li className="py-2 text-sm">Percepciones</li>
+          <li className="py-2 text-sm">
+              <Link
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+                to="nosotros"
+                className="p-4 cursor-pointer hover:text-[#00df9a]"
+              >
+                Nosotros
+              </Link>
+              </li>
           </ul>
         </div>
         <div>
           <h6 className="font-medium text-gray-400">Soporte</h6>
           <ul>
-            <li className="py-2 text-sm">Precios</li>
-            <li className="py-2 text-sm">Documentación</li>
-            <li className="py-2 text-sm">Guías</li>
-            <li className="py-2 text-sm">Estado de la API</li>
+          <li className="py-2 text-sm">
+              <Link
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+                to="precios"
+                className="p-4 cursor-pointer hover:text-[#00df9a]"
+              >
+                Precios
+              </Link>
+              </li>
           </ul>
         </div>
         <div>
           <h6 className="font-medium text-gray-400">Compania</h6>
           <ul>
-            <li className="py-2 text-sm">Acerca de</li>
-            <li className="py-2 text-sm">Blog</li>
-            <li className="py-2 text-sm">Trabajos</li>
-            <li className="py-2 text-sm">Prensa</li>
-            <li className="py-2 text-sm">Carreras</li>
+            <li className="py-2 text-sm">
+              <Link
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+                to="trabajos"
+                className="p-4 cursor-pointer hover:text-[#00df9a]"
+              >
+                Trabajos
+              </Link>
+            </li>
           </ul>
         </div>
+        {/*
         <div>
           <h6 className="font-medium text-gray-400">Legal</h6>
           <ul>
@@ -64,6 +93,7 @@ const Footer = () => {
             <li className="py-2 text-sm">Términos</li>
           </ul>
         </div>
+         */}
       </div>
     </div>
   );

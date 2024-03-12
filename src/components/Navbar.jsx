@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from 'react-scroll'
+import { NAV } from "../data";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -9,15 +11,28 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" flex justify-between items-center h-24 max-w-[1240px] mx-auto text-white">
+    <div className=" flex sticky top-0  justify-between items-center h-24 w-full mx-auto bg-black mb-10 text-white">
       <h1 className="w-full text-3xl font-bold text-white m-4 ">
         Visibilidad <span className="text-[#00DF9A]">Web</span>
       </h1>
       <ul className="hidden  md:flex">
-        <li className="p-4">Inicio</li>
-        <li className="p-4">Trabajos</li>
-        <li className="p-4">Nosotros</li>
-        <li className="p-4">Contacto</li>
+        {NAV.map((item,index)=>{
+          return(
+            <li
+            className='cursor-pointer hover:text-[#00DF9A]'
+            key={index} 
+            >
+            <Link  
+       
+      
+            spy={true} smooth={true} offset={10}
+            duration={500}
+            to={item.path} className="p-4">{item.title}
+            </Link>
+            </li>
+          )
+        })}
+       
 
       </ul>
       <div onClick={handleNav} className="cursor-pointer block md:hidden m-4">
@@ -36,11 +51,30 @@ const Navbar = () => {
         </h1>
 
         <ul className=" uppercase p-4">
-          <li className="p-4 border-b border-gray-600 ">Inicio</li>
-          <li className="p-4 border-b border-gray-600 ">Trabajos</li>
-          <li className="p-4 border-b border-gray-600 ">Nosotros</li>
-          <li className="p-4 border-b border-gray-600 ">Contacto</li>
+          {NAV.map((item,index)=>{
+          return(
+            <li  
+          
+            key={index} 
+             className="p-4 border-b border-gray-600 cursor-pointer  hover:text-[#00DF9A]">
+            <Link  
+              onClick={handleNav}
+            spy={true} smooth={true} offset={10}
+            duration={500}
+            to={item.path} 
+          
+            >{item.title}</Link>
+            </li>
+          )
+        })}
+          
         </ul>
+
+
+       
+
+
+
       </div>
     </div>
   );
