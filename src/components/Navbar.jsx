@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" flex sticky top-0  justify-between items-center h-24 w-full mx-auto bg-black mb-10 text-white">
+    <div className=" flex sticky top-0 z-50 justify-between items-center h-24 w-full mx-auto bg-black mb-10 text-white">
       <h1 className="w-full text-3xl font-bold text-white m-4 ">
         Visibilidad <span className="text-[#00DF9A]">Web</span>
       </h1>

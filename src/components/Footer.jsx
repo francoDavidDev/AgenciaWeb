@@ -24,10 +24,13 @@ const Footer = () => {
          estamos a su disposicion.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <a href=" https://www.facebook.com/profile.php?id=100075172364405" target="_blank">
+         {
+            /* <a href=" https://www.facebook.com/profile.php?id=100075172364405" target="_blank">
           <FaFacebookSquare size={30} className="cursor-pointer hover:text-[#00df9a]" />
           </a>
-          <a href=" https://www.instagram.com" target="_blank">
+             */
+          }
+          <a href=" https://www.instagram.com/visibilidadweb/" target="_blank">
           <FaInstagram size={30}   className="cursor-pointer hover:text-[#00df9a]" />
           </a>
         </div>
