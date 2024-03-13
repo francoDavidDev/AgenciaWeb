@@ -11,21 +11,33 @@ import travelWebReact from "../assets/works/travelWebReact.png";
 
 export const WORKS = [
   {
+    title: "Photography Web",
+    image: photographyWeb,
+    tag: "Web Premium",
+    path: "https://photography-web-five.vercel.app/",
+  },
+  {
+    title: "Starke Fit",
+    image: starkeFit,
+    tag: "Web Premium",
+    path: "https://starkeweb.onrender.com/",
+  },
+  {
     title: "Cafeteria",
     image: coffeShop,
     tag: "Landing Page + Menu Restaurant",
     path: "https://coffee-shop-1-topaz.vercel.app/",
   },
   {
-    title: "Foods Page",
+    title: "Pagina de comidas",
     image: foodsPage,
-    tag: "Landing Page",
+    tag: "Web Basica",
     path: "https://restaurant-page-two-xi.vercel.app/",
   },
   {
     title: "Menu Card",
     image: menuCard,
-    tag: "Menu Restaurant",
+    tag: "Web basica",
     path: "https://menu-coffee-card.vercel.app/",
   },
   {
@@ -43,27 +55,15 @@ export const WORKS = [
   {
     title: "Nike Shop",
     image: nikeShop,
-    tag: "Landing Page",
+    tag: "Web Basica",
     path: "https://nike-web-ten.vercel.app/",
   },
-  {
-    title: "Photography Web",
-    image: photographyWeb,
-    tag: "Landing Page",
-    path: "https://photography-web-five.vercel.app/",
-  },
-  {
-    title: "Starke Fit",
-    image: starkeFit,
-    tag: "Landing Page",
-    path: "https://starkeweb.onrender.com/",
-  },
-
+  
   {
     title: "Travel Web React",
     image: travelWebReact,
-    tag: "Landing Page",
-    path: "",
+    tag: "Web Basica",
+    path: "https://argenviajes.vercel.app/",
   },
 ];
 
