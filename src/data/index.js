@@ -20,7 +20,7 @@ export const WORKS = [
     title: "Starke Fit",
     image: starkeFit,
     tag: "Web Premium",
-    path: "https://starkeweb.onrender.com/",
+    path: "https://starkefitness.vercel.app/",
   },
   {
     title: "Cafeteria",
