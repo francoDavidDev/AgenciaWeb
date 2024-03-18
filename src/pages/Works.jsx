@@ -15,11 +15,11 @@ const Works = () => {
           return (
             <div
               key={index}
-              className="border-none shadow-sm rounded-lg hover:scale-105 duration-300 bg-[#00DF9A] "
+              className="border-none shadow-sm rounded-lg hover:scale-105 duration-300 bg-[#33ce9a] "
             >
               <Link to={item.path} target="_blank">
                 <img
-                  className="w-full h-[200px] object-cover rounded-t-lg   "
+                  className="w-full h-[200px] object-cover rounded-t-lg "
                   src={item.image}
                   alt={item.name}
                 />

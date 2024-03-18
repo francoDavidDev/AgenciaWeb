@@ -10,7 +10,7 @@ const Cards = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
         
           <h2 className="text-2xl font-bold text-center py-8 ">Web Basica</h2>
-          <p className="text-center text-4xl font-bold mb-5">$50.000</p>
+          <p className="text-center text-4xl font-bold mb-5">$60.000</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8">Hosting 1 mes.</p>
             <p className="py-2 border-b mx-8"> Dominio 1 año.</p>
