@@ -58,7 +58,7 @@ export const WORKS = [
     tag: "pagina web",
     path: "https://nike-web-ten.vercel.app/",
   },
-  
+
   {
     title: "Pagina de viajes",
     image: travelWebReact,
@@ -90,86 +90,125 @@ export const NAV = [
   },
 ];
 
-export const BUTTONS =[
+export const BUTTONS = [
   {
     name: "Todos",
-    value:"todos"
+    value: "todos",
   },
   {
     name: "Paginas webs",
-    value:"pagina web",
+    value: "pagina web",
   },
   {
     name: "Menus",
-    value:"menu"
+    value: "menu",
   },
-]
+];
 
-
-export const PRICES =[
-  
-    {
-      title: "Web Basica",
-      price: "$60.000",
-      services: [
-        "Hosting 1 mes.",
-        "Dominio 1 año.",
-        "SSL 1 año.",
-        "Personalizacion baja.",
-        "Boton de WhatsApp.",
-        "Vinculo de redes sociales.",
-        "Personalizacion baja.",
-        "Mantenimiento gratis por 15 dias.",
-        "Primero pago 70%.",
-        "5 secciones.",
-        "Tiempo de entrega acordado."
-      ]
-    },
-    {
-      title: "Web Premium",
-      price: "$90.000",
-      services: [
-        "Hosting 1 año.",
-        "Dominio 1 año.",
-        "SSL 1 año.",
-        "Personalizacion alta.",
-        "Ajustes de marca.",
-        "Carrito, pasarela de pago",
-        "Seccion de servicios.",
-        "Portafolio",
-        "Formulario",
-        "Boton de WhatsApp.",
-        "Vinculo de redes sociales.",
-        "Correo empresarial.",
-        "Mantenimiento gratis por 30 dias.",
-        "Primero pago 55%.",
-        "5 secciones.",
-        "Tiempo de entrega acordado."
-      ]
-    },
-    {
-      title: "Web Unica",
-      price: "$150.000",
-      services: [
-        "Hosting 1 mes.",
-        "Dominio 1 año.",
-        "SSL 1 año.",
-        "Personalizacion especial.",
-        "Ajustes de marca.",
-        "Carrito, pasarela de pago",
-        "Seccion de servicios.",
-        "Portafolio",
-        "Formulario",
-        "Boton de WhatsApp.",
-        "Vinculo de redes sociales.",
-        "Correo empresarial.",
-        "Mantenimiento gratis por 60 dias.",
-        "Reseñas de Google My Bussines.",
-        "Reseñas de Google Analytics.",
-        "Primero pago 50%.",
-        "5 secciones.",
-        "Tiempo de entrega acordado."
-      ]
-    }
-  
-]
+export const PRICES = [
+  {
+    title: "Web Básica",
+    price: "$60.000",
+    services: [
+      "Hosting 1 mes.",
+      "Dominio 1 año.",
+      "SSL 1 año.",
+      "Personalización baja.",
+      "Botón de WhatsApp.",
+      "Vinculo de redes sociales.",
+      "Personalización baja.",
+      "Mantenimiento gratis por 15 días.",
+      "Primero pago 70%.",
+      "5 secciones.",
+      "Tiempo de entrega acordado.",
+    ],
+    tag:'pagina web'
+  },
+  {
+    title: "Web Premium",
+    price: "$90.000",
+    services: [
+      "Hosting 1 año.",
+      "Dominio 1 año.",
+      "SSL 1 año.",
+      "Personalización alta.",
+      "Ajustes de marca.",
+      "Carrito, pasarela de pago",
+      "Sección de servicios.",
+      "Portafolio",
+      "Formulario",
+      "Botón de WhatsApp.",
+      "Vinculo de redes sociales.",
+      "Correo empresarial.",
+      "Mantenimiento gratis por 30 días.",
+      "Primero pago 55%.",
+      "5 secciones.",
+      "Tiempo de entrega acordado.",
+    ],
+    tag:'pagina web'
+  },
+  {
+    title: "Web Única",
+    price: "$150.000",
+    services: [
+      "Hosting 1 año.",
+      "Dominio 1 año.",
+      "SSL 1 año.",
+      "Personalización especial.",
+      "Ajustes de marca.",
+      "Carrito, pasarela de pago",
+      "Sección de servicios.",
+      "Portafolio",
+      "Formulario",
+      "Botón de WhatsApp.",
+      "Vinculo de redes sociales.",
+      "Correo empresarial.",
+      "Mantenimiento gratis por 60 días.",
+      "Reseñas de Google My Business.",
+      "Reseñas de Google Analytics.",
+      "Primero pago 50%.",
+      "5 secciones.",
+      "Tiempo de entrega acordado.",
+    ],
+    tag:'pagina web'
+  },
+  {
+    title: "Menu Básico",
+    price: "$50.000",
+    services: [
+      "Hosting 1 mes.",
+      "SSL 1 año.",
+      "Personalización especial.",
+      "Ajustes de marca.",
+      "Botón de WhatsApp.",
+      "Vinculo de redes sociales.",
+      "Mantenimiento gratis por 30 días.",
+      "Primero pago 50%.",
+      "5 secciones.",
+      "Tiempo de entrega acordado.",
+    ],
+    tag:'menu'
+  },
+  {
+    title: "Menu Único",
+    price: "Precio acordado",
+    services: [
+      "Hosting 1 año.",
+      "SSL 1 año.",
+      "Personalización especial.",
+      "Ajustes de marca.",
+      "Botón de WhatsApp.",
+      "Vinculo de redes sociales.",
+      "Ofertas y Promociones",
+      "Filtros de Búsqueda",
+      "Slider de Imágenes",
+      "Widget de Calendario de Eventos",
+      "Secciones de Destacados o Populares",
+      "Mantenimiento gratis por 60 días.",
+      "Primero pago 40%.",
+      "+ 5 secciones.",
+      "Tiempo de entrega acordado.",
+    ],
+    tag:'menu'
+  },
+];

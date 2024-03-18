@@ -10,7 +10,7 @@ const Main = () => {
     <div>
       <Hero  />
       <Analytics  />
-      <Newsletter />
+    {/*   <Newsletter />*/}
       <Works />
       <Cards />
     

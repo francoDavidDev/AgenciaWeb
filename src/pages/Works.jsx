@@ -33,7 +33,7 @@ const Works = () => {
     <section id="trabajos" className="w-full m-auto py-12 bg-black">
       <div className="max-w-[1240px] mx-auto px-4 py-12 ">
         <h1 className="text-white font-bold text-4xl text-center">
-          Trabajos Realizados
+          Trabajos Realizados<span className="text-[#33ce9a] ">.</span>
         </h1>
       </div>
       <div className="flex justify-around px-10">
