@@ -5,6 +5,7 @@ import {
   FaGithubSquare,
   FaInstagram,
   FaTwitterSquare,
+  FaWhatsapp
 } from "react-icons/fa";
 
 import { Link } from "react-scroll";
@@ -13,7 +14,7 @@ const Footer = () => {
   return (
     <div
       id="contacto"
-      className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300"
+      className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-4 text-gray-300"
     >
       <div>
         <h1 className="w-full text-3xl font-bold text-white">
@@ -23,7 +24,7 @@ const Footer = () => {
          Contactenos para poder trabajar juntos, 
          estamos a su disposicion.
         </p>
-        <div className="flex justify-between md:w-[75%] my-6">
+        <div className="flex justify-evenly md:w-[75%] my-6">
          {
             /* <a href=" https://www.facebook.com/profile.php?id=100075172364405" target="_blank">
           <FaFacebookSquare size={30} className="cursor-pointer hover:text-[#00df9a]" />
@@ -33,9 +34,14 @@ const Footer = () => {
           <a href=" https://www.instagram.com/visibilidadweb/" target="_blank">
           <FaInstagram size={30}   className="cursor-pointer hover:text-[#00df9a]" />
           </a>
+          <a   href={`https://wa.me/+541126318338/?text=ashe `}
+           rel="noopener noreferrer"
+          target="_blank">
+          <FaWhatsapp size={30}   className="cursor-pointer hover:text-[#00df9a]" />
+          </a>
         </div>
       </div>
-      <div className="lg:col-span-2 flex justify-between mt-6">
+      <div className="lg:col-span-2 flex justify-evenly mt-6">
         <div>
           <h6 className="font-medium text-gray-400">Soluciones</h6>
           <ul>

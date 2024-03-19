@@ -122,7 +122,9 @@ export const PRICES = [
       "5 secciones.",
       "Tiempo de entrega acordado.",
     ],
-    tag:'pagina web'
+    tag: "pagina web",
+    message: "¡Hola! estoy interesado/a  por la Web Básica. ¿Podrías darme más información? ",
+
   },
   {
     title: "Web Premium",
@@ -145,7 +147,9 @@ export const PRICES = [
       "5 secciones.",
       "Tiempo de entrega acordado.",
     ],
-    tag:'pagina web'
+    tag: "pagina web",
+    message: "¡Hola! estoy interesado/a  por la Web Premium. ¿Podrías darme más información? ",
+
   },
   {
     title: "Web Única",
@@ -170,7 +174,9 @@ export const PRICES = [
       "5 secciones.",
       "Tiempo de entrega acordado.",
     ],
-    tag:'pagina web'
+    tag: "pagina web",
+    message: "¡Hola! estoy interesado/a  por la Web Única. ¿Podrías darme más información? ",
+
   },
   {
     title: "Menu Básico",
@@ -187,7 +193,8 @@ export const PRICES = [
       "5 secciones.",
       "Tiempo de entrega acordado.",
     ],
-    tag:'menu'
+    tag: "menu",
+    message: "¡Hola! estoy interesado/a  por el Menu Básico. ¿Podrías darme más información? ",
   },
   {
     title: "Menu Único",
@@ -209,6 +216,7 @@ export const PRICES = [
       "+ 5 secciones.",
       "Tiempo de entrega acordado.",
     ],
-    tag:'menu'
+    tag: "menu",
+    message: "¡Hola! estoy interesado/a  por el Menu Único. ¿Podrías darme más información? ",
   },
 ];

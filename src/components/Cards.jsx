@@ -4,12 +4,14 @@ import Double from "../assets/double.png";
 import Triple from "../assets/triple.png";
 import { BUTTONS, PRICES } from "../data";
 
-export const Card = ({ title, price, services }) => {
+import { FaWhatsapp } from "react-icons/fa";
+
+export const Card = ({ title, price, services, message }) => {
   return (
     <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4  md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
       <h2
         className={
-          title === "Web Única" || title === 'Menu Único'
+          title === "Web Única" || title === "Menu Único"
             ? " text-2xl font-bold text-center py-8 text-[#33ce9a] "
             : ` text-2xl font-bold text-center py-8  text-black `
         }
@@ -28,8 +30,16 @@ export const Card = ({ title, price, services }) => {
           );
         })}
       </div>
-      <button className="bg-[#000000] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-[#00DF9A]">
-        Consultar
+      <button className="bg-[#000000] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-[#00DF9A] flex justify-center items-center gap-2 hover:bg-[#151515] hover:w-[205px]  hover:h-[50px]  duration-200  ease-in-out">
+        <a
+          href={`https://wa.me/+541126318338/?text=${message} `}
+          rel="noopener noreferrer"
+          target="_blank"
+          className="hover:text-xl  duration-200  ease-in-out"
+        >
+          CONSULTAR
+        </a>
+        <FaWhatsapp className="text-xl" />
       </button>
     </div>
   );
@@ -45,7 +55,7 @@ const Cards = () => {
 
   return (
     <div id="precios" className="w-full py-[10rem] px-4 bg-white ">
-       <div className="max-w-[1240px] mx-auto px-4 py-12 ">
+      <div className="max-w-[1240px] mx-auto px-4 py-12 ">
         <h1 className="text-black font-bold text-4xl text-center">
           Precios<span className="text-[#33ce9a] ">.</span>
         </h1>
@@ -77,6 +87,7 @@ const Cards = () => {
                 title={item.title}
                 price={item.price}
                 services={item.services}
+                message={item.message}
               />
             </div>
           ) : null;
