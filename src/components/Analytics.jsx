@@ -16,9 +16,12 @@ const Analytics = () => {
             organización, nos encargamos que su negocio tenga la visibilidad
             para que <span className="text-[#00DF9A]">crezca en la web.</span>
           </p>
-          <button className="text-[#00DF9A] w-[200px] rounded-md  font-medium my-6 mx-auto md:mx-0 py-3 px-6 bg-[#000000] ">
-            Empezar ahora
-          </button>
+          <button className="bg-[#00DF9A] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-black ">
+         <a  href={`https://wa.me/+541126318338/?text= `}
+           rel="noopener noreferrer"
+          target="_blank">
+            Empezar ahora</a> 
+        </button>
         </div>
       </div>
     </div>
