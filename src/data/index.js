@@ -108,7 +108,7 @@ export const BUTTONS = [
 export const PRICES = [
   {
     title: "Web Básica",
-    price: "$60.000",
+    price: "$70.000",
     services: [
       "Hosting 1 mes.",
       "Dominio 1 año.",
@@ -178,27 +178,10 @@ export const PRICES = [
     message: "¡Hola! estoy interesado/a  por la Web Única. ¿Podrías darme más información? ",
 
   },
-  {
-    title: "Menu Básico",
-    price: "$50.000",
-    services: [
-      "Hosting 1 mes.",
-      "SSL 1 año.",
-      "Personalización especial.",
-      "Ajustes de marca.",
-      "Botón de WhatsApp.",
-      "Vinculo de redes sociales.",
-      "Mantenimiento gratis por 30 días.",
-      "Primero pago 50%.",
-      "5 secciones.",
-      "Tiempo de entrega acordado.",
-    ],
-    tag: "menu",
-    message: "¡Hola! estoy interesado/a  por el Menu Básico. ¿Podrías darme más información? ",
-  },
+ 
   {
     title: "Menu Único",
-    price: "Precio acordado",
+    price: "$60.000",
     services: [
       "Hosting 1 año.",
       "SSL 1 año.",
