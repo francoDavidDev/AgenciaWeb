@@ -33,7 +33,7 @@ const Hero = () => {
          <a  href={`https://porfolio3d-ruby.vercel.app/`}
            rel="noopener noreferrer"
           target="_blank">
-            https://porfolio3d-ruby.vercel.app/
+            
             Empezar ahora</a> 
             {  /* <a  href={`https://wa.me/+541126318338/?text= `}
            rel="noopener noreferrer"
