@@ -30,10 +30,15 @@ const Hero = () => {
           digitales
         </p>
         <button className="bg-[#00DF9A] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-black ">
-         <a  href={`https://wa.me/+541126318338/?text= `}
+         <a  href={`https://porfolio3d-ruby.vercel.app/`}
            rel="noopener noreferrer"
           target="_blank">
+            https://porfolio3d-ruby.vercel.app/
             Empezar ahora</a> 
+            {  /* <a  href={`https://wa.me/+541126318338/?text= `}
+           rel="noopener noreferrer"
+          target="_blank">
+            Empezar ahora</a> */}
         </button>
       </div>
     </div>
