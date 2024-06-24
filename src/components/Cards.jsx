@@ -32,7 +32,7 @@ export const Card = ({ title, price, services, message }) => {
       </div>
       <button className="bg-[#000000] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-[#00DF9A] flex justify-center items-center gap-2 hover:bg-[#151515] hover:w-[205px]  hover:h-[50px]  duration-200  ease-in-out">
         <a
-          href={`https://wa.me/+541126318338/?text=${message} `}
+          href={`https://wa.me/+541166709006/?text=${message} `}
           rel="noopener noreferrer"
           target="_blank"
           className="hover:text-xl  duration-200  ease-in-out"

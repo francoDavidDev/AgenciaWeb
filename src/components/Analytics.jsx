@@ -17,7 +17,7 @@ const Analytics = () => {
             para que <span className="text-[#00DF9A]">crezca en la web.</span>
           </p>
           <button className="bg-[#00DF9A] w-[200px] rounded-md  font-medium my-6 mx-auto py-3 px-6 text-black ">
-         <a  href={`https://wa.me/+541126318338/?text= `}
+         <a  href={`https://wa.me/+541166709006/?text= `}
            rel="noopener noreferrer"
           target="_blank">
             Empezar ahora</a> 

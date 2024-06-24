@@ -35,7 +35,7 @@ const Hero = () => {
           target="_blank">
             
             Empezar ahora</a> */}
-            <a  href={`https://wa.me/+541126318338/?text= `}
+            <a  href={`https://wa.me/+541166709006/?text= `}
            rel="noopener noreferrer"
           target="_blank">
             Empezar ahora</a> *

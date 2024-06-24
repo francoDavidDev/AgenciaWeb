@@ -17,10 +17,10 @@ export const WORKS = [
     path: "https://photography-web-five.vercel.app/",
   },
   {
-    title: "Starke Fit",
+    title: "Starke Fitness",
     image: starkeFit,
     tag: "pagina web",
-    path: "https://starkefitness.vercel.app/",
+    path: "https://starkemg.com/",
   },
   {
     title: "Cafeteria",
@@ -108,7 +108,7 @@ export const BUTTONS = [
 export const PRICES = [
   {
     title: "Web Básica",
-    price: "$70.000",
+    price: "$170.000",
     services: [
       "Hosting 1 mes.",
       "Dominio 1 año.",
@@ -128,7 +128,7 @@ export const PRICES = [
   },
   {
     title: "Web Premium",
-    price: "$90.000",
+    price: "$200.000",
     services: [
       "Hosting 1 año.",
       "Dominio 1 año.",
@@ -153,7 +153,7 @@ export const PRICES = [
   },
   {
     title: "Web Única",
-    price: "$150.000",
+    price: "$300.000",
     services: [
       "Hosting 1 año.",
       "Dominio 1 año.",
@@ -171,7 +171,7 @@ export const PRICES = [
       "Reseñas de Google My Business.",
       "Reseñas de Google Analytics.",
       "Primero pago 50%.",
-      "5 secciones.",
+      "+5 secciones.",
       "Tiempo de entrega acordado.",
     ],
     tag: "pagina web",
@@ -181,7 +181,7 @@ export const PRICES = [
  
   {
     title: "Menu Único",
-    price: "$60.000",
+    price: "$120.000",
     services: [
       "Hosting 1 año.",
       "SSL 1 año.",

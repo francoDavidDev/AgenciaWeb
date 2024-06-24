@@ -34,7 +34,7 @@ const Footer = () => {
           <a href=" https://www.instagram.com/visibilidadweb/" target="_blank">
           <FaInstagram size={30}   className="cursor-pointer hover:text-[#00df9a]" />
           </a>
-          <a   href={`https://wa.me/+541126318338/?text=`}
+          <a   href={`https://wa.me/+541166709006/?text=`}
            rel="noopener noreferrer"
           target="_blank">
           <FaWhatsapp size={30}   className="cursor-pointer hover:text-[#00df9a]" />
