@@ -175,7 +175,7 @@ export const PRICES = [
       "Tiempo de entrega acordado.",
     ],
     tag: "pagina web",
-    message: "¡Hola! estoy interesado/a  por la Web Única. ¿Podrías darme más información? ",
+    message: "¡Hola! estoy interesado/a  por la Web Única. ¿Podrías darme más información?  ",
 
   },
  
